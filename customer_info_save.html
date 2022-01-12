@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>消費者資料留存</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="components/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <!-- sidebar styles -->
+    <link href="components/sidebar-gh-pages/css/simple-sidebar-left.css" rel="stylesheet" />
+    <link href="components/sidebar-gh-pages/css/simple-sidebar-right.css" rel="stylesheet" />
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="components/fontawesome-free-5.7.1-web/css/all.css" />
+    <!-- google noto TC font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <!-- timepicker -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css"
+      integrity="sha512-3JRrEUwaCkFUBLK1N8HehwQgu8e23jTH4np5NHOmQOobuC4ROQxFwFgBLTnhcnQRMs84muMh0PnnwXlPq5MGjg=="
+      crossorigin="anonymous"
+    />
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- nav bar left icon only1-->
+    <div class="d-flex">
+      <nav class="navbar justify-content-center fixed-top p-0 h_50px main_color shadow-sm">
+        <button class="mr-0 p-0 pt-1 btn_no_bg nav_btn_style">
+          <i class="fas fa-angle-left fa-lg fa-inverse"></i>
+        </button>
+        <div class="navbar-text mx-auto pl-5 text-center ft_white ft_size_mid">消費者資料留存</div>
+        <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap h_50px">
+          <li class="nav-item">
+            <button class="pt-1 btn_no_bg nav_btn_style"></button>
+          </li>
+          <li class="nav-item">
+            <button class="pt-1 btn_no_bg nav_btn_style"></button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /#nav bar left icon only1-->
+    <!-- customer setting content -->
+    <div class="m_top_50px fadein">
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">用餐方式選擇</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <div class="input-group">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>自取</option>
+                  <option value="1">內用</option>
+                  <option value="2">外送</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">預計取餐時間</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <!-- <input type="datetime-local" class="form-control cus_input_style" /> -->
+
+              <div class="col p-0">
+                <select class="custom-select mr-1" id="month01">
+                  <option selected>日期</option>
+                  <option value="1">1月12日(二)</option>
+                  <option value="2">1月13日(三)</option>
+                  <option value="3">1月14日(四)</option>
+                  <option value="4">1月15日(五)</option>
+                </select>
+              </div>
+              <div class="col p-0 ml-1">
+                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
+                  <input
+                    type="text"
+                    class="form-control datetimepicker-input"
+                    data-target="#datetimepicker3"
+                  />
+                  <div
+                    class="input-group-append"
+                    data-target="#datetimepicker3"
+                    data-toggle="datetimepicker"
+                  >
+                    <div class="input-group-text"><i class="far fa-clock"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">消費者名稱</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <input type="text" class="form-control cus_input_style" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">行動電話</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <input type="tel" class="form-control cus_input_style" placeholder="行動電話" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">室內電話</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <input type="tel" class="form-control cus_input_style" placeholder="室內電話" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- checkbox -->
+      <div class="container-fluid white h_40px cus_title_style">
+        <div class="row">
+          <div class="col">
+            <div class="custom-control custom-checkbox">
+              <input
+                class="custom-control-input cb1-element"
+                type="checkbox"
+                id="examplecheckbox1"
+              />
+              <label class="custom-control-label checkbox-setting" for="examplecheckbox1"
+                >紀錄本次消費聯絡資訊</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#checkbox -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">付款方式選擇</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <div class="input-group">
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>現場付款</option>
+                  <option value="1">LinePay</option>
+                  <option value="2">街口</option>
+                  <option value="2">悠遊付</option>
+                  <option value="2">信用卡交易</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">備註</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white setting_input_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center h_50px">
+              <input type="text" class="form-control ps_input_style" placeholder="備註" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">是否需要一次性餐具</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white h_40px cus_title_style">
+        <div class="row">
+          <div class="col">
+            <div class="custom-control custom-checkbox">
+              <input
+                class="custom-control-input cb1-element"
+                type="checkbox"
+                id="examplecheckbox2"
+              />
+              <label class="custom-control-label checkbox-setting" for="examplecheckbox2">是</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+      <!-- setting title -->
+      <div class="container-fluid white h_40px cus_title_style border_b_style">
+        <div class="row">
+          <div class="col">發票資訊</div>
+        </div>
+      </div>
+      <!-- /#setting title -->
+      <!-- setting content -->
+      <div class="container-fluid white cus_setting_style">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center custom-control custom-radio h_50px">
+              <input
+                class="custom-control-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                checked
+              />
+              <label class="custom-control-label pt-1" for="exampleRadios1">
+                <input
+                  type="tel"
+                  class="form-control cus_input_style p-0"
+                  placeholder="紙本發票輸入-統一編號(選填欄位)"
+              /></label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center custom-control custom-radio h_50px">
+              <input
+                class="custom-control-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+              />
+              <label class="custom-control-label pt-1" for="exampleRadios2">
+                <input
+                  type="tel"
+                  class="form-control cus_input_style p-0"
+                  placeholder="手機載具輸入"
+              /></label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center custom-control custom-radio h_50px">
+              <input
+                class="custom-control-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios3"
+              />
+              <label class="custom-control-label pt-1" for="exampleRadios3">
+                <input
+                  type="num"
+                  class="form-control cus_input_style p-0"
+                  placeholder="愛心碼捐贈輸入"
+              /></label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#setting content -->
+    </div>
+    <!-- /#customer setting content -->
+    <!-- save btn -->
+    <div class="d-flex">
+      <div class="row kart_btn_fixed_area"></div>
+    </div>
+    <div class="d-flex fixed-bottom">
+      <button
+        class="container-fluid p-0 Kart_btn_style ft_white"
+        id="user-toggle"
+        data-toggle="modal"
+        data-target="#saveModal"
+      >
+        <div class="row no-gutters align-items-center">
+          <div class="col text-center">送出訂單</div>
+        </div>
+      </button>
+    </div>
+    <!-- /#save btn -->
+    <!-- save modal -->
+    <div
+      class="modal fade"
+      id="saveModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="saveModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center my-2 no_border">
+            <h6 class="modal-title" id="saveModalLabel">訂單已送出</h6>
+          </div>
+          <div class="modal-footer no_border justify-content-center">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">確定</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#save modal -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="components/jquery-3.3.1.min.js"></script>
+    <script src="components/popper.min.js"></script>
+    <script src="components/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+    <!-- timepicker -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js"
+      integrity="sha512-k6/Bkb8Fxf/c1Tkyl39yJwcOZ1P4cRrJu77p83zJjN2Z55prbFHxPs9vN7q3l3+tSMGPDdoH51AEU8Vgo1cgAA=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker3').datetimepicker({
+          format: 'HH:mm',
+        });
+      });
+    </script>
+  </body>
+</html>
